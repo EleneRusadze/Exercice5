@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5</title>
+    <link rel="stylesheet" href="style-5.css"/>
+
+</head>
+<body>
+    
+    <h1>Contactez-nous</h1>
+
+    <form method="post">
+
+    <fieldset id="form">
+      <legend>Vos coordonnées</legend>
+        
+
+            <label for="Nom">Nom :*</label>
+            <input type="text" placeholder="Nom" required/>
+
+            <label for="Prénom">Prénom :*</label>
+            <input type="text" placeholder="Prénom" required/>
+
+            <label for="Telephone">Telephone :*</label>
+            <input type="number" placeholder="Telephone" required/>
+
+            <label for="Email">Email :*</label>
+            <input type="Email" placeholder="Email" required/>
+
+            <label for="Objet">Objet :*</label>
+            <input type="text" placeholder="Objet" required/>
+
+        
+    </fieldset>
+
+
+    <fieldset id="message">
+        <legend>Votre message</legend>
+
+        <textarea placeholder="message" required></textarea>
+
+    </fieldset>
+    </form>
+    
+    
+    <p>* Tous les champs sont obligatoires</p>
+
+
+    <div class="buttons">
+        <button type="reset">EFFACER</button>
+        <button type="submit">ENVOYER</button>
+    </div>
+
+</body>
+</html>
